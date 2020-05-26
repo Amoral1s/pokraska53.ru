@@ -2181,12 +2181,17 @@ section {
   }
 }
 
-@media (max-width: 577.8px) {
+@media (max-width: 578px) {
+  .action-wrap-content-item {
+    width: 100%;
+  }
   .slick-next {
-    right: -10px;
+    right: -15px;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
   }
   .slick-prev {
-    left: -10px;
+    left: -15px;
   }
   .process-right {
     display: none;
