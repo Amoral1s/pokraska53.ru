@@ -2182,6 +2182,12 @@ section {
 }
 
 @media (max-width: 577.8px) {
+  .slick-next {
+    right: -10px;
+  }
+  .slick-prev {
+    left: -10px;
+  }
   .process-right {
     display: none;
   }
@@ -2211,7 +2217,10 @@ section {
     margin-top: 20px;
   }
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .action {
+    max-width: 520px;
   }
 }
