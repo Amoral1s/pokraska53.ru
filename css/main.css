@@ -30,6 +30,7 @@ body, html {
   font-weight: 400;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  min-width: 578px;
   font-size: 16px;
   line-height: 110%;
   -ms-overflow-style: scrollbar;
@@ -58,8 +59,16 @@ input, button, select, textarea {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 input[type="text"], input[type="tel"], input[type="submit"], button {
   -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   padding: 10px 15px;
 }
 
@@ -80,7 +89,7 @@ h1, h2, h3, h4, h5 {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 578px) {
   .container {
     max-width: 540px;
   }
@@ -472,6 +481,12 @@ section {
 
 .offer-wrap-right form input::placeholder, .offer-wrap-right form select::placeholder {
   color: #000;
+}
+
+.offer-wrap-right form select {
+  background-image: url("../img/icons/menu-arr.png");
+  background-position: calc(100% - 20px) center;
+  background-repeat: no-repeat;
 }
 
 .offer-wrap-right form div.buttons {
@@ -2163,18 +2178,32 @@ section {
 }
 
 @media (max-width: 578px) {
-  section, header, footer {
-    padding-right: 15px;
-    padding-left: 15px;
+  .process-right {
+    display: none;
   }
-  .slick-next {
-    right: -10px;
+  .offer-wrap-right form h2 {
+    font-size: 26px;
+    line-height: 30px;
   }
-  .slick-prev {
-    left: -10px;
+  .offer-wrap-right form {
+    width: 100%;
+    height: auto;
   }
-  .cons {
-    padding-left: 30px;
-    padding-right: 30px;
+  .offer {
+    background-size: 119%;
+    background-position: 41px 141px;
+  }
+  .cons-right, .offer-wrap-right form {
+    padding: 40px 30px;
+  }
+  .map-right a {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .map-right p {
+    font-size: 18px;
+  }
+  .map-right .dfirst {
+    margin-top: 20px;
   }
 }
