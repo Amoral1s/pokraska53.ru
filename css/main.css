@@ -1700,6 +1700,7 @@ section {
   overflow: hidden;
   z-index: 30;
   min-height: 1080px;
+  overflow-x: hidden;
 }
 
 .main-footer {
