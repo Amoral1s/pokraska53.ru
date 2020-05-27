@@ -62,6 +62,10 @@ $(document).ready(function () {
     $('.popup-bonus').fadeIn(300);
     $('.overlay').fadeIn(300);
   });
+  $('.action-wrap-content-item').on('click', function () {
+    $('.popup-bonus').fadeIn(300);
+    $('.overlay').fadeIn(300);
+  });
   //Mob menu
   jQuery('.burger').on('click', function () { 
     jQuery('.burger').toggleClass('burger-active');
