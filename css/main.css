@@ -2193,7 +2193,7 @@ section {
   .slick-prev {
     left: -15px;
   }
-  .process-right {
+  .about-video .process-right {
     display: none;
   }
   .offer-wrap-right form h2 {
@@ -2227,5 +2227,74 @@ section {
   }
   .action {
     max-width: 520px;
+  }
+  .offer-wrap-left {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offer-wrap-right form .calc-wrap small {
+    display: none;
+  }
+  .process-right p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .map-right div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .map-right div .social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .cons-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .serv a {
+    width: 47%;
+  }
+  .serv a img {
+    width: 50px;
+  }
+  .title, .subtitle, .process-right h2, .how .features-wrap-content-item h3, .features-wrap-content-item p, .action-wrap-content-item h3, .cons-left h3, .cons-left p, .cons-right form .head {
+    text-align: center;
+    width: 100%;
+  }
+  .button {
+    font-size: 18px;
+    height: 60px;
+    width: 250px;
+  }
+  .offer {
+    background-position: -70px 143px;
+  }
+  .offer-wrap-left h1 {
+    margin-bottom: 100px;
+  }
+  .offer-wrap-left h1, .offer-wrap-left p {
+    width: 100%;
+    text-align: center;
   }
 }
