@@ -2690,8 +2690,9 @@ section {
     margin-left: 0;
   }
   .layout {
-    max-width: 540px;
+    max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
   }
   .main-offer h1 {
     font-size: 46px;
