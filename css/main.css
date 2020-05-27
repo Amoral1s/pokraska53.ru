@@ -2691,8 +2691,8 @@ section {
   }
   .layout {
     max-width: 100%;
-    overflow-x: hidden;
     margin: 0;
+    height: 100%;
   }
   .main-offer h1 {
     font-size: 46px;
