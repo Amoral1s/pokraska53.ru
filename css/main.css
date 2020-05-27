@@ -2691,6 +2691,14 @@ section {
     height: auto;
     margin-left: 30px;
   }
+  .main-offer-wrap-center {
+    width: 100%;
+  }
+  .main-offer-wrap-center img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
   .layout {
     width: 100%;
   }
