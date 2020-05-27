@@ -2692,7 +2692,11 @@ section {
     margin-left: 30px;
   }
   .layout {
-    max-width: 540px;
+    width: 100%;
+  }
+  body, html {
+    max-width: 578px;
+    min-width: 578px;
   }
   .tech-menu ul {
     -webkit-box-orient: vertical;
