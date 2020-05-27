@@ -2687,7 +2687,7 @@ section {
   .layout .main-offer-wrap-center img {
     max-width: 100%;
     height: auto;
-    margin-left: 0;
+    margin-left: 30px;
   }
   .layout {
     max-width: 100%;
