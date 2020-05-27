@@ -2685,13 +2685,6 @@ section {
   }
   .layout .main-offer-wrap-center {
     top: 110px;
-  }
-  .layout .main-offer-wrap-center img {
-    width: auto;
-    height: auto;
-    margin-left: 30px;
-  }
-  .layout .main-offer-wrap-center {
     width: 100%;
   }
   .layout .main-offer-wrap-center img {
