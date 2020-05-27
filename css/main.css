@@ -1696,12 +1696,8 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  max-width: 540px;
-  margin: auto;
-  overflow: hidden;
   z-index: 30;
   min-height: 1080px;
-  overflow-x: hidden;
 }
 
 .main-footer {
@@ -2694,8 +2690,7 @@ section {
     margin-left: 0;
   }
   .layout {
-    max-width: 577px;
-    overflow: auto;
+    max-width: 540px;
     overflow-x: hidden;
   }
   .main-offer h1 {
