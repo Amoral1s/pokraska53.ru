@@ -2694,10 +2694,8 @@ section {
   }
   .layout {
     max-width: 577px;
-  }
-  body, html {
-    max-width: 578px;
-    min-width: 578px;
+    overflow: auto;
+    overflow-x: hidden;
   }
   .tech-menu ul {
     -webkit-box-orient: vertical;
