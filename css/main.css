@@ -2278,7 +2278,19 @@ section {
   .serv a img {
     width: 50px;
   }
-  .title, .subtitle, .process-right h2, .how .features-wrap-content-item h3, .features-wrap-content-item p, .action-wrap-content-item h3, .cons-left h3, .cons-left p, .cons-right form .head {
+  .features-wrap-content-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .title, .subtitle, .process-right h2, .how .features-wrap-content-item h3, .features-wrap-content-item p, .action-wrap-content-item h3, .cons-left h3, .cons-left p, .cons-right form .head, .offer-wrap-right form h2, .features-wrap-content-item:first-child h3, .features-wrap-content-item h3 {
     text-align: center;
     width: 100%;
   }
